@@ -6,7 +6,3 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 
-ADD . .
-RUN pip install -r requirements.txt
-CMD ["python","-m","unittest","discover","-s","Tests"]
-# just added a comment
