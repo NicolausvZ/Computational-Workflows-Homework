@@ -6,3 +6,5 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 
+RUN python3 -m pip install pytest
+# blabla bla
