@@ -15,3 +15,8 @@ class Wallet(object):
 
     def add_cash(self, amount):
         self.balance += amount
+        
+        
+wallet = Wallet()
+
+print(wallet.balance)
